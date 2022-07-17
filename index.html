@@ -3,29 +3,124 @@
   <head>
     <meta charset="utf-8" />
     <title>Curriculum Vitae de Bruce Wayne</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
+  
   <body>
-    <h1>Curriculum Vitae de Bruce Wayne</h1>
-    <img src="images/Bruce_Wayne.jpg" />
-    <h2>Datos personales</h2>
-    <ul>
-      <li>Nombre completo: <strong>Bruce Wayne</strong></li>
-      <li>Fecha de nacimiento: <strong>1/5/1939</strong></li>
-      <li>Lugar de nacimiento: <strong>Gotham City</strong></li>
-    </ul>
+    
+    <!--Seccion Izquierda: Foto, Contacto, Habilidades e Intereses, Hobies-->
+    <section class="izquierda">
+      <div>
+        <img id="fotoCV" src="images/Bruce_Wayne.jpg" />
+      </div>
 
-    <h2>Formación académica</h2>
-    <ul>
-      <li>1956-1961: <strong>Universidad del Espantapájaros</strong></li>
-      <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
-      <li>1944-1952: <strong>Escuela Primaria del Joker</strong></li>
-    </ul>
+      <h2 class="titulo-izquierda">Bruce </br> Wayne</h2>
 
-    <h2>Experiencia laboral</h2>
-    <ul>
-      <li>1975-1985: <strong>En el paro</strong></li>
-      <li>1965-1975: <strong>Cazavillanos y demás chusma</strong></li>
-      <li>1962-1965: <strong>Aprendiz de superhéroe</strong></li>
-    </ul>
+      <h3 id="subtitulo-izquierda">Defensor de la noche</h3>
+
+      <div>
+        <h3>Contacto</h3>
+
+        <div class="contenedor-contacto">
+          <img class="iconos-contacto" src="images/sobre.png" />
+          <a href="#">Envía un correo</a>
+        </div>
+
+        <div class="contenedor-contacto">
+          <img class="iconos-contacto" src="images/llamada-telefonica.png" />
+          <p class="parrafo-contacto">(+1) 555 444 555</p>
+        </div>
+
+        <div class="contenedor-contacto">
+          <img class="iconos-contacto" src="images/marcador.png" />
+          <p class="parrafo-contacto">Gotham City</p>
+        </div>
+
+        <div class="contenedor-contacto">
+          <img class="iconos-contacto" src="images/globo.png" />
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Habilidades</h3>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses"
+            >JavaScript</label
+          >
+          <progress id="file" max="100" value="80">80%</progress>
+        </div>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses">HTML</label>
+          <progress id="file" max="100" value="70">70%</progress>
+        </div>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses">CSS</label>
+          <progress id="file" max="100" value="90">90%</progress>
+        </div>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses">React</label>
+          <progress id="file" max="100" value="50">50%</progress>
+        </div>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses">Firebase</label>
+          <progress id="file" max="100" value="20">20%</progress>
+        </div>
+      </div>
+
+      <div>
+        <h3>Intereses</h3>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses">Scrum</label>
+          <progress id="file" max="100" value="80">80%</progress>
+        </div>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses"
+            >Aplicaciones Móvil</label
+          >
+          <progress id="file" max="100" value="70">70%</progress>
+        </div>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses">SEO</label>
+          <progress id="file" max="100" value="90">90%</progress>
+        </div>
+
+        <div class="contenedor-habilidades-intereses">
+          <label for="file" class="parrafo-habilides-intereses"
+            >Usabilidad</label
+          >
+          <progress id="file" max="100" value="50">50%</progress>
+        </div>
+      </div>
+
+      <div>
+        <h3>Hobies</h3>
+
+        <div class="contenedor-hobies">
+          <img class="iconos-hobies" src="images/mando.png" />
+          <img class="iconos-hobies" src="images/mundo.png" />
+          <img class="iconos-hobies" src="images/taza-caliente-alt.png" />
+          <img class="iconos-hobies" src="images/almuerzo-cohete.png" />
+        </div>
+      </div>
+    </section>
+
+
+
+
+
   </body>
 </html>

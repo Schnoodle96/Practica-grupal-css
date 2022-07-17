@@ -1,0 +1,118 @@
+body {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+label {
+  padding-right: 10px;
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+  align-self: center;
+}
+
+progress {
+  writing-mode: horizontal-tb !important;
+  appearance: auto;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 1.6em;
+  width: 8em;
+  vertical-align: -0.2em;
+  accent-color: white;
+}
+
+/*Sección Izquierda: Clases y otros*/
+.izquierda {
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  align-content: space-between;
+  background: rgb(66, 25, 74);
+  background: linear-gradient(
+    101deg,
+    rgba(66, 25, 74, 0.9856114320728291) 16%,
+    rgba(10, 3, 66, 1) 50%,
+    rgba(108, 13, 148, 1) 86%
+  );
+}
+
+.titulo-izquierda {
+  color: white;
+  text-align: center;
+  font-size: xxx-large;
+  margin-top: -30%;
+}
+
+#subtitulo-izquierda {
+  color: #d1d9cf;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: -10%;
+}
+
+#fotoCV {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.contenedor-contacto {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.parrafo-contacto {
+  color: white;
+  align-self: center;
+}
+
+.parrafo-info-personal {
+  justify-content: left;
+  margin-left: 30px;
+}
+
+.contenedor-habilidades-intereses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.parrafo-habilides-intereses {
+  color: white;
+  align-self: center;
+  text-align: center;
+}
+
+.contenedor-hobies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.iconos-contacto {
+  width: 30px;
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  align-self: center;
+}
+
+.iconos-hobies {
+  width: 30px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
