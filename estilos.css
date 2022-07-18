@@ -1,34 +1,14 @@
 
-.seccionDerecha {
-   
-  display: grid;
-  grid-auto-rows: 20%;
-  
-   }  
-   .caja {
 
-    background-color:rgb(255, 255, 255);
-    justify-items: center;
-    margin: 25px auto;
-    border: 1px solid rgb(243, 236, 236);
-    width: 450px;
-    height: 200px;
-    box-shadow: 10px 10px 10px #8d6ca0; 
-   }
-   h2{
-    color: #891fc6;
-    font-family: 'Bebas Neue', cursive;
-    margin: 5px 10px;
-
-   }
-   .letraPerfil{
-    margin: 0px 10px;
-   }
-  
 
 body {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
+  background-color: white;
+  border: 2px solid #4b0971;
+  width: 55%;
+  margin: 10px 350px;
+
 }
 
 h3 {
@@ -89,7 +69,8 @@ progress {
 
 #fotoCV {
   padding-top: 20px;
-  width: 100%;
+  width: 300px;
+  margin: 0px 40px;
 }
 
 .contenedor-contacto {
@@ -144,4 +125,40 @@ progress {
   background-color: white;
   border-radius: 5px;
 }
+.seccionDerecha {
+   
+    display: grid;
+    grid-template-rows: auto;
+    
+     }  
+     .caja {
+  
+      background-color:rgb(250, 247, 247);
+      margin-top: 25px;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      border: 1px solid rgb(246, 238, 238);
+      width: 600px;
+      
+      box-shadow: 10px 10px 10px #8d6ca0; 
+     }
+     h2{
+      color: #891fc6;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 32px;
+      margin: 5px 10px;
+  
+     }
+     .letraPerfil{
+      margin: 0px 10px;
+      font-size: 25px;
+     }
+     li {
+        font-size: 25px;
+     }
+     .caja .item{
+        margin-bottom: 10px;
+     }
 
+    
+    
